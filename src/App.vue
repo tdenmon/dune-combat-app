@@ -34,19 +34,6 @@
         </select>
       </div>
 
-      <!-- Leader Name Input (visible if a leader is selected or custom is chosen) -->
-      <div v-if="selectedLeaderOption !== null" class="mb-5">
-        <label for="leader-name" class="block text-gray-700 text-sm font-semibold mb-2">Leader Name:</label>
-        <input
-          type="text"
-          id="leader-name"
-          v-model="leaderName"
-          placeholder="e.g., Duncan Idaho"
-          class="block w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800"
-          :readonly="!isCustomLeaderSelected"
-        />
-      </div>
-
       <!-- Leader Value Input (visible if a leader is selected or custom is chosen) -->
       <div v-if="selectedLeaderOption !== null" class="mb-5">
         <label for="leader-value" class="block text-gray-700 text-sm font-semibold mb-2">Leader Battle Value:</label>
