@@ -1,5 +1,12 @@
 # dune-combat-app
 
+## Deployment
+There is a Github Actions workflow defined in this repo that kicks off on pull requests and pushes to `main` that publishes a Docker image to GHCR at ghcr.io/tdenmon/dune-combat-app.
+
+The app is running on Scaleway's Serverless platform. It requires manual deployments when new changes are pushed up, because I'm too lazy to automate that.
+
+The app is available at `dune.zeroethangel.space`. The DNS is configured manually on DigitalOcean under my `zeroethangel.space` domain.
+
 ## Docker Setup
 ```
 docker build . -t dune-combat-app
