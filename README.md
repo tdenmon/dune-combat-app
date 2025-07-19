@@ -5,7 +5,7 @@ There is a Github Actions workflow defined in this repo that kicks off on pull r
 
 The app is running on Scaleway's Serverless platform. It requires manual deployments when new changes are pushed up, because I'm too lazy to automate that.
 
-The app is available at `dune.zeroethangel.space`. The DNS is configured manually on DigitalOcean under my `zeroethangel.space` domain.
+The app is available at https://dune.zeroethangel.space. The DNS is configured manually on DigitalOcean under my `zeroethangel.space` domain.
 
 ## Docker Setup
 ```
