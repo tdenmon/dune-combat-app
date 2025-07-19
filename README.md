@@ -1,5 +1,11 @@
 # dune-combat-app
 
+## Docker Setup
+```
+docker build . -t dune-combat-app
+docker run -it -p 8080:8080 --rm dune-combat-app
+```
+
 ## Project setup
 ```
 npm install
